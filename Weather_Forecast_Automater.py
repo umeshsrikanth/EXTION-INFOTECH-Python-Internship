@@ -24,7 +24,7 @@ def get_weather(api_key, city):
             return "Error: Unauthorized. Check your API key."
         return f"Error: Unable to fetch weather for {city}. {e}"
 
-if _name_ == "_main_":
+if __name__ == "_main_":
     api_key = "7b5066b767ad6f66980e4c963cd31c7e"  # Replace with your OpenWeatherMap API key
     city = input("Enter city name: ")
     print(get_weather(api_key, city))
