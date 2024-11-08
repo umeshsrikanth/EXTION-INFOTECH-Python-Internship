@@ -54,5 +54,5 @@ def main():
     send_email(sender_email, password, recipients, subject, message)
 
 # Entry point of the script
-if _name_ == "_main_":
+if __name__ == "_main_":
     main()
